@@ -41,7 +41,7 @@ public class Loginpagetest extends BaseClass {
 	
 	@Test(dataProvider="readDataFromExcel")
 	void verifydataDriverLogin(String loginid, String passwrod) {
-		System.out.println(loginid +""+ passwrod);
+		System.out.println(loginid +""+ passwrod); //sdsd
 	}
 	
 	@AfterTest
